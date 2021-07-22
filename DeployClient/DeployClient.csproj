@@ -86,10 +86,4 @@
     <Content Include="project.config.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <PropertyGroup>
-    <PostBuildEvent>gulp post-build-$(ConfigurationName)</PostBuildEvent>
-  </PropertyGroup>
-  <PropertyGroup>
-    <PreBuildEvent>gulp pre-build-$(ConfigurationName)</PreBuildEvent>
-  </PropertyGroup>
 </Project>
